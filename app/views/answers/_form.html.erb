@@ -1,0 +1,6 @@
+<%= form_for [@question, @answer] do |f| %>
+  <%= f.label :body %>
+  <%= f.text_field :body, size: "100x25" %>
+
+  <%= f.submit "Answer" %>
+<% end %>
